@@ -18,6 +18,7 @@ class Car:
     def get_info(self):
         print(f"Getting info for {self.brand} car from {self.year}")
         print("This is a car object.")
+        return f"{self.brand} {self.year}"
         return f"{self.year} {self.brand}"
 
 
