@@ -61,4 +61,8 @@ def main():
 
 
 
-    
+    dice = Dice()
+    print(dice.roll())
+    print(dice)
+    print(repr(dice))
+    print(f"Is the dice fair? {dice.is_fair()}")
