@@ -45,4 +45,12 @@ class Dice:
         return f"Dice({self.sides})"
 
     def is_fair(self):
+        print("Checking if the dice is fair...")
         return self.sides >= 2
+    
+
+def main():
+    animal = Animal("Dog")
+    print(animal.speak())
+
+    
