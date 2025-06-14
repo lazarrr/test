@@ -36,6 +36,7 @@ class Dice:
         self.sides = sides
 
     def roll(self):
+        print(f"Rolling a {self.sides}-sided dice...")
         return random.randint(1, self.sides)
     
     def __str__(self):
@@ -52,5 +53,12 @@ class Dice:
 def main():
     animal = Animal("Dog")
     print(animal.speak())
+
+    car = Car("Toyota", 2020)
+    print(car.honk())
+    print(car.get_info())
+    print(car.new_method())
+
+
 
     
