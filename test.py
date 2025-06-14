@@ -58,6 +58,7 @@ def main():
     print(car.honk())
     print(car.get_info())
     print(car.new_method())
+    print(car.new_method())
 
 
 
@@ -66,3 +67,14 @@ def main():
     print(dice)
     print(repr(dice))
     print(f"Is the dice fair? {dice.is_fair()}")
+
+
+def test():
+    animal = Animal("Cat")
+    assert animal.speak() == "Cat makes a sound."
+
+        car = Car("Honda", 2019)
+    assert car.honk() == "Honda car honks!"
+    assert car.get_info() == "Honda 2019"
+    assert car.new_method() == "New method executed."
+
