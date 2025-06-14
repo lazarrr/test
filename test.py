@@ -57,8 +57,7 @@ def main():
     car = Car("Toyota", 2020)
     print(car.honk())
     print(car.get_info())
-    print(car.new_method())
-    print(car.new_method())
+
 
 
 
