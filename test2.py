@@ -22,6 +22,12 @@ class Car:
         print("It has a brand and a year.")
         return f"{self.brand} {self.year}"
     
+    def new_method(self):
+        print("This is a new method in the Car class.")
+        print("It can do something different.")
+        print("You can call it like this:")
+        return "New method executed."
+    
   
     
 class Dice:
