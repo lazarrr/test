@@ -77,3 +77,6 @@ def test():
     assert car.get_info() == "Honda 2019"
     assert car.new_method() == "New method executed."
 
+    dice = Dice(10)
+    assert dice.roll() in range(1, 11)
+    assert str(dice) == "Dice with 10 sides"
