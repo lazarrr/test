@@ -17,8 +17,6 @@ class Car:
         return f"{self.brand} car honks!"
     
     def get_info(self):
-        print(f"Getting info for {self.brand} car from {self.year}")
-        print("This is a car object.")
         print("It has a brand and a year.")
         return f"{self.brand} {self.year}"
     
@@ -35,8 +33,29 @@ class Dice:
         self.sides = 6
 
     def __str__(self):
+        print("This is a string representation of the Dice class.") 
         return f"Dice with {self.sides} sides"
 
     def roll(self):
         print(f"Rolling a {self.sides}-sided dice...")
         return random.randint(1, self.sides)
+    
+    def test(self):
+        print("dlfkdfjl")
+        print("dkf")
+        return "test"
+    
+
+    def hhh(self):
+        print("dkfldfk")
+        print("This is a new method in the Dice class.")
+        print("It can do something different.")
+        return "flkdkjl"
+    
+
+    def x(self):
+        print("dlfkdljk")
+        
+
+    def y(self):
+        print("ldfldkfj")
