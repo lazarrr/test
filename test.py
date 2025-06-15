@@ -80,3 +80,6 @@ def test():
     dice = Dice(10)
     assert dice.roll() in range(1, 11)
     assert str(dice) == "Dice with 10 sides"
+
+    assert repr(dice) == "Dice(10)"
+    assert dice.is_fair() is True
