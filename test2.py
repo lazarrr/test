@@ -60,3 +60,9 @@ class Dice:
 
     def y(self):
         print("ldfldkfj")
+
+
+    def final(self):
+        print("dkfldkfl")
+        print('lfkdfjlkd')
+        return 'ffkfk'
