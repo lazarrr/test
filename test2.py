@@ -55,6 +55,7 @@ class Dice:
 
     def x(self):
         print("dlfkdljk")
+        print("djlfkjdfl")
         
 
     def y(self):
